@@ -35,7 +35,7 @@ jobs:
         uses: actions/setup-node@v4
       - name: Install and Build
         run: |
-          cd TW_lab5
+          cd TW_lab6
           npm install
           npm run build
       - name: Setup Pages
